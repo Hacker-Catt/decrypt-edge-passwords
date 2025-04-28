@@ -1,5 +1,7 @@
 # decrypt-edge-passwords
-POC to show why people should move away from saving passwords within browsers. In this POC, Microsoft Edge was used to show that passwords can be easily decrypted and accessed by malicious actors. 
+POC to show why people should move away from saving passwords within browsers. 
+This script extracts and decrypts saved passwords from **Microsoft Edge**'s login data on a Windows machine. It uses the **DPAPI** (Data Protection API) to decrypt the master key, and **AES GCM** decryption to retrieve the saved passwords.
+In this POC, Microsoft Edge was used to show that passwords can be easily decrypted and accessed by malicious actors. 
 
 # Disclaimer
 This script is intended solely for ethical and educational purposes. It is designed to help demonstrate the risks associated with storing passwords in web browsers and how they can be accessed under certain conditions. Unauthorized access to data, accounts, or devices without explicit permission is illegal and unethical.
