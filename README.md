@@ -16,7 +16,7 @@ By using this script, you agree to take full responsibility for your actions and
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/edge-password-decryptor.git
+git clone https://github.com/Hacker-Catt/edge-password-decryptor.git
 cd edge-password-decryptor
  ```
 2. **Install dependencies**:
