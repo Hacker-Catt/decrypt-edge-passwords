@@ -17,5 +17,6 @@ git clone https://github.com/yourusername/edge-password-decryptor.git
 cd edge-password-decryptor
  ````
 2. **Install dependencies**:
+```bash
 pip install -r requirements.txt
-
+```
