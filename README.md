@@ -3,6 +3,7 @@ POC to show why people should move away from saving passwords within browsers. I
 
 # Disclaimer
 This script is intended solely for ethical and educational purposes. It is designed to help demonstrate the risks associated with storing passwords in web browsers and how they can be accessed under certain conditions. Unauthorized access to data, accounts, or devices without explicit permission is illegal and unethical.
+By using this script, you agree to take full responsibility for your actions and to use it only in compliance with applicable laws and regulations. You should only use this tool on systems or accounts where you have explicit consent and permission to access the data. Always respect user privacy and follow ethical guidelines when working with sensitive information.
 
 ## Requirements
 - Python 3.6 or higher
