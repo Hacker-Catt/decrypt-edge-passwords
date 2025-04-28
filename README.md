@@ -15,8 +15,13 @@ This script is intended solely for ethical and educational purposes. It is desig
 ```bash
 git clone https://github.com/yourusername/edge-password-decryptor.git
 cd edge-password-decryptor
- ````
+ ```
 2. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
+3. **Usage**:
+ This script extracts and decrypts passwords stored in Microsoft Edge’s `Login Data` database. It retrieves the encrypted master key from the `Local State` file and uses it to decrypt the passwords using DPAPI or AES GCM encryption.
+
+4. **Notes**:
+- The script uses DPAPI (Data Protection API) to decrypt passwords on Windows. If your system is using additional security measures (like Windows Hello), decryption may not work. Chrome currently works with additional security, hence this only working on edge. Chrome may be added in the future. 
