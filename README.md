@@ -15,7 +15,7 @@ This script is intended solely for ethical and educational purposes. It is desig
 ```bash
 git clone https://github.com/yourusername/edge-password-decryptor.git
 cd edge-password-decryptor
-
+ ````
 2. **Install dependencies**:
 pip install -r requirements.txt
 
